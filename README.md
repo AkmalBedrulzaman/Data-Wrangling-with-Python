@@ -20,9 +20,12 @@
 
 #### Query to Preview Dataset for the First 10 Rows
     df.head(10)
-#### 
-####
-####
+#### Query to Show All Available Columns Header
+    df.columns
+#### Query to Show First Value of Maker Column
+    df.maker[0]
+#### Query to Show First Row and First Column Value
+    df.iloc[0, 0]
 ####
 ####
 ####
