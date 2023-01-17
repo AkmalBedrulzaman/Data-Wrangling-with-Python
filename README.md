@@ -19,8 +19,8 @@
 ## 2) Inspecting Data with Python
 
 #### Query to Preview Dataset for the First 10 Rows
-
-####
+    df.head(10)
+#### 
 ####
 ####
 ####
