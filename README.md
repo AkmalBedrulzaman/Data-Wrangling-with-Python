@@ -35,7 +35,7 @@
 #### Query to Show First 10 Rows (0,1,2,..,9) at First 2 Column 
     df.iloc[0:10, :2]
     
-#### Query to 
+#### Query to Give Quick Summary of Numeric Column Variables Within Table (Mean,Min,Count,Max,Std)
     df.describe()
 #### Query to 
     df.info()
