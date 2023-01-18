@@ -34,8 +34,43 @@
     df.loc[0:10, ["maker", "model"]] 
 #### Query to Show First 10 Rows (0,1,2,..,9) at First 2 Column 
     df.iloc[0:10, :2]
+    
 #### Query to 
+    df.describe()
 #### Query to 
+    df.info()
+#### Query to
+    df.shape
+#### Query to
+    df.maker.head()
 #### Query to 
+    df.maker.describe()
 #### Query to 
+    df.maker.head(10)
+#### Query to 
+    df.maker.unique()
+#### Query to 
+    df.maker.nunique()
+#### Query to 
+    df.maker.value_counts()
+#### Query to 
+    df.mileage.max()
+#### Query to 
+    df.mileage.min()
+#### Query to 
+    df.mileage.mean()
+#### Query to 
+    df.maker == "skoda"
+#### Query to 
+    df.loc[df.maker == "skoda"]
+#### Query to 
+    df.loc[(df.maker == "skoda") | (df.maker == "ford")]
+#### Query to 
+    df[df.maker.isin(["skoda","ford"])]
+    
+---
+
+
+##
+
 #### Query to 
