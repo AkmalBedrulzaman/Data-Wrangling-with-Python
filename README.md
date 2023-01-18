@@ -41,31 +41,31 @@
     df.info()
 #### Query to Know How Many Row and Column
     df.shape
-#### Query to
+#### Query to Show First 5 Rows at maker Column 
     df.maker.head()
-#### Query to 
+#### Query to Show Quick Summary  at maker Column (Count,Unique,Top,Freq)
     df.maker.describe()
-#### Query to 
+#### Query to Show First 10 Rowa at maker Column
     df.maker.head(10)
-#### Query to 
+#### Query to Show All Unique Value at maker Column
     df.maker.unique()
-#### Query to 
+#### Query to Show How Many Unique Value at maker Column
     df.maker.nunique()
-#### Query to 
+#### Query to Show Values Each maker Row
     df.maker.value_counts()
-#### Query to 
+#### Query to See Maximum Value at mileage Column
     df.mileage.max()
-#### Query to 
+#### Query to  See Minimum Value at mileage Column
     df.mileage.min()
-#### Query to 
+#### Query to See Mean Value at mileage Column
     df.mileage.mean()
-#### Query to 
+#### Query to Show True if Have skoda
     df.maker == "skoda"
-#### Query to 
+#### Query to Show All Table That Only Have skoda at maker Column
     df.loc[df.maker == "skoda"]
-#### Query to 
+#### Query to Show All Table that Have skoda or ford Only
     df.loc[(df.maker == "skoda") | (df.maker == "ford")]
-#### Query to 
+#### Query to Show All Table that Have skoda or ford Only (More clean)
     df[df.maker.isin(["skoda","ford"])]
     
 ---
