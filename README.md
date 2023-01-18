@@ -37,9 +37,9 @@
     
 #### Query to Give Quick Summary of Numeric Column Variables Within Table (Count,Mean,Std,Min,25%,50%,75%,Max)
     df.describe()
-#### Query to 
+#### Query to Show Each Column and Their Data Types (Float,Object)
     df.info()
-#### Query to
+#### Query to Know How Many Row and Column
     df.shape
 #### Query to
     df.maker.head()
